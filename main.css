@@ -1,0 +1,166 @@
+body {
+  background-color: #eff0ea;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.container{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-left: 0;
+  margin-right: 0;
+  background-color: #eff0ea;
+}
+
+.navigation {
+  display: flex;
+  background-color: #411f26;
+  justify-content: space-around;
+  width: 100%;
+flex-wrap: wrap;
+}
+
+.nav_el {
+  flex-basis: 20%;
+  text-align: center;
+  font-size: 170%;
+  flex-wrap: wrap;
+}
+
+a {
+  text-decoration: none;
+  color: #f6f6f6;
+}
+
+.headd {
+  display: flex;
+  flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo {
+  flex-basis: 20%;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.name {
+  text-align: center;
+  flex-basis: 25%;
+  font-size: 200%;
+  flex-wrap: wrap;
+}
+
+.phone {
+  text-align: center;
+  flex-basis: 20%;
+  flex-wrap: wrap;
+  font-size: 150%;
+}
+
+.btn {
+  text-align: center;
+  flex-basis: 25%;
+  font-size: 200%;
+  flex-wrap: wrap;
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+  margin: 2%;
+}
+
+.col {
+   flex-basis: 20%;
+  text-align: center;
+}
+
+.foot {
+    display: flex;
+  background-color: #411f26;
+  justify-content: space-around;
+  width: 100%;
+  height: 100%;
+  color: #eff0ea;
+  font-size: 120%;
+}
+
+form {
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+form li + li {
+  margin-top: 1em;
+}
+
+label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input,
+textarea {
+  width: 300px;
+  box-sizing: border-box;
+
+  border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #000;
+}
+
+textarea {
+  vertical-align: top;
+  height: 5em;
+}
+
+.button {
+  padding-left: 90px; 
+}
+
+button {
+  margin-left: .5em;
+}
+
+.baner {
+  width: 50%;
+}
+
+.tovar {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+flex-wrap: wrap;
+flex-direction: row;
+}
+
+.tov {
+  width: 100%;
+  height: 60%;
+}
+
+.block {
+  flex-basis: 20%;
+  text-align: center;
+  font-size: 130%;
+  flex-wrap: wrap;
+}
